@@ -13,7 +13,7 @@ if uploaded_file:
     st.dataframe(df.head())
 
     st.subheader("📈 Exploratory Data Analysis")
-    eda.show_basic_eda(df)
+    eda.show_basic_eda(df)  # Fungsi ini akan menampilkan laporan Sweetviz
 
     st.subheader("🧹 Saran Pembersihan Data")
     cleaner.show_cleaning_suggestions(df)
@@ -23,5 +23,4 @@ if uploaded_file:
         st.success("Preprocessing selesai!")
         st.dataframe(df_cleaned.head())
 
-        # Optional download
         st.download_button("📥 Download Dataset Bersih", df_cleaned.to_csv(index=False), file_name="cleaned_data.csv")
