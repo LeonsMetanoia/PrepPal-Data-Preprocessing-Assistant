@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy        
+matplotlib      
+seaborn
+ydata-profiling
+plotly
+scikit-learn
+missingno
