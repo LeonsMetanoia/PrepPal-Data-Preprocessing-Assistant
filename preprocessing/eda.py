@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import sweetviz as sv
 import streamlit.components.v1 as components
 import tempfile
-
+    
 def show_basic_eda(df):
     st.write("Jumlah Baris dan Kolom:", df.shape)
     st.write("Tipe Data per Kolom:")
