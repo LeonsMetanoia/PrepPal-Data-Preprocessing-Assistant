@@ -1,6 +1,10 @@
-# 🤖 PrepPal
+# 🤖 PrepPal – AI-Powered Automated Preprocessing Assistant
 <p align="center">
   <img src="image2.png" width="500"/>
+</p>
+
+<p align="center">
+  <img src="image4.png" width="500"/>
 </p>
 
 <p align="center">
@@ -73,9 +77,6 @@ Here are the core features of **PrepPal**:
   - Download the cleaned and preprocessed dataset for further Machine Learning workflows or for storage  
 
 ---
-<p align="center">
-  <img src="image4.png" width="500"/>
-</p>
 
 <p align="center">
   <img src="image1.png" width="500"/>
